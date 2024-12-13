@@ -1,0 +1,42 @@
+<%-include("partials/header", {
+	pageTitle: "Welcome to Campus OLX", //Title of Page
+	pageFavicon: "", //href Link to favicon
+	cssFiles: ["css/home.css"] //href link to css files
+})-%>
+
+<%-include("components/navbar")-%>
+
+<div class="row">
+<div class="mt-4 mb-2 h4 p-2 col">🛒 Items Currently on SALE !</div>
+<div class="my-filter me-4 float-end col-auto mt-4">
+	<form action="/filter" method="POST" class="row">
+		<input type="number" name="min" class="form-control float-start" required>
+		<input type="number" name="max" class="form-control float-start" required>
+		<button type="submit" class="btn btn-success float-end">GO</button>
+	</form>
+</div>
+</div>
+
+<hr class="horizontal-line" />
+<!-- Product cards -->
+<div class="container">
+	<div class="item-card row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+		
+		<%items.forEach((item)=>{%>
+			<%-include("components/itemCard", {
+			itemId : item._id,
+			itemName : item.name,
+			itemPrice : item.price,
+			itemDescription: item.description,
+			itemImageUrl: item.imageUrl,
+			itemSellerName: item.sellerName,
+			itemCreationTime: item.creationTime	
+			})-%>
+		<%})%>
+
+	</div>
+</div>
+
+<%-include("partials/footer", {
+	jsFiles: [ ] //Javacsript Files
+})-%>

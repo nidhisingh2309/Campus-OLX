@@ -1,0 +1,75 @@
+/*
+#00C5D2
+#FFCB00
+#868FAC
+#FEF9A7
+#F6FBF4
+#293462
+*/
+body {
+	background: #f6fbf4;
+}
+.navbar-custom-color {
+	background: #fef9a7;
+}
+.horizontal-line {
+	border-top: 4px solid #868fac;
+}
+.my-filter form input {
+	width: 80px;
+}
+.my-filter form button {
+	width: 40px;
+}
+.container {
+	margin-bottom: 100px;
+}
+.item-card-link {
+	text-decoration: inherit;
+	color: inherit;
+}
+.card {
+	box-shadow: 10px 10px 20px 4px rgba(0,197,210,0.20);
+	transition: 0.4s;
+}
+.card:hover {
+	box-shadow: 8px 8px 20px 4px rgba(0,197,210,0.40);
+	background-color:  #ffcb00;
+
+}
+.card:hover .card-text{
+	color: #293462;
+}
+.item-card-link:hover {
+	color: inherit;
+}
+.card-body .card-title {
+	color: black;
+	font-size: 1.6rem;
+	text-decoration: underline #ffcb00 solid 5px;
+}
+.card-body .item-price {
+	#293462
+}
+.card-body .card-text {
+	color: #868fac;
+}
+.selling-date {
+	float: right;
+}
+.seller-name {
+	float: left;
+	font-weight: bold;
+}
+.card-footer small {
+	font-size: 12px;
+	color: ;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fef9a7;
+}
