@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
 🛍 Campus OLX
 </h1>
@@ -109,3 +110,6 @@ if ( youLovedProject() ) {
  starIt();
 }
 ```
+=======
+# Campus-OLX
+>>>>>>> 316a41b01ca690beb2788c6e4bcb312713c64306
