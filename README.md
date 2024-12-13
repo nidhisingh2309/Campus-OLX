@@ -8,9 +8,6 @@
 
 > Campus OLX is an online platform that allows users to buy and sell old items within the campus.
 
-## 📺 Live Demo
-This project is deployed on [~~Heroku~~](https://iitg-campus-olx.herokuapp.com/) or
-Check out its Working Proof [here.](https://drive.google.com/file/d/1iIIowl7md2BPDr3LZegH_OXWRtx97-CZ/view?usp=sharing)
 
 ## 🕵️‍♀️ About the Project
 **Problem Description :**
@@ -49,13 +46,7 @@ This project is an attempt to solve the above problem by creating a pulic platfo
 - [Node.js](https://nodejs.org/en/download/)^16.15.1
 - [MongoDB](https://www.mongodb.com/try/download/community)^5.0
 
-### Installation
- 
- ```sh
- $ git clone https://github.com/The-DefaultCube/campus-olx/
- $ cd campus-olx
- $ npm i
- ```
+
 ### Environment Variables
 1. Register app in application registration potal for [authentication.](https://www.passportjs.org/packages/passport-outlook/) 
 2. Register on [Cloudinary](https://cloudinary.com/) for handling image uploads.
@@ -100,8 +91,8 @@ MONGO_DB_PASSWORD="YOUR_MONGO_DB_PASSWORD"
 
 
 ## 📩 Contact
-- Contact me : manish0307kumar@gmail.com
-- Project Link : https://github.com/The-DefaultCube/campus-olx/
+- Contact me : nidhisingh2650@gmail.com
+- Project Link : https://github.com/nidhisingh2309/Campus-OLX
 
 
 ## 🙏 Thanks :)
